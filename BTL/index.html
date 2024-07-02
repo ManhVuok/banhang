@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css" />
+
+  <title>Food Store</title>
+</head>
+
+<body>
+  <header class="topbar">
+    <div class="container flex justify-between item-center">
+      <div class="icons">
+        <a href="#"><img src="./icons/facebook.svg" alt="" /></a>
+        <a href="#"><img src="./icons/twitter.svg" alt="" /></a>
+        <a href="#"><img src="./icons/google.svg" alt="" /></a>
+        <a href="#"><img src="./icons/instagram.svg" alt="" /></a>
+        <a href="#"><img src="./icons/search.svg" alt="" /></a>
+      </div>
+      <div class="auth flex item-center">
+        <div>
+          <img src="./icons/user-icon.svg" alt="" />
+          <a href="#">Đăng Nhập</a>
+        </div>
+        <span class="divider">|</span>
+        <div>
+          <img src="./icons/edit.svg" alt="" />
+          <a href="#">Đăng Kí</a>
+        </div>
+        <span class="divider">|</span>
+        <div>
+          <img src="./icons/cart.svg" alt="" />
+          <a id="item" href="#">0 Items - ($0.00)</a>
+        </div>
+      </div>
+  </header>
+  <nav>
+    <div class="top" id="home">
+      <div class="container flex justify-between item-center">
+        <div class="contact flex item-center">
+          <img src="./icons/phone.svg" alt="" />
+          <div>
+            <h5>Phone: (+84) 5655 2 8686</h5>
+            <h6>E-mail: contactforwork.dvmmo@gmail.com</h6>
+          </div>
+        </div>
+        <div class="branding">
+          <a href="/">
+            <h1>Food Store</h1>
+          </a>
+        </div>
+        <div class="time flex item-center">
+          <img src="./icons/clock.svg" alt="" />
+          <div>
+            <h5>Giờ Làm Việc:</h5>
+            <h6>Thứ 2 - Thứ 7 (8.00am - 12.00am)</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="navbar magic-shadow">
+      <div class="container flex justify-center">
+        <a href="#home" class="active">Home</a>
+        <a href="#products">Products</a>
+        <a href="#bigsale">Big Sale</a>
+        <a href="#services">Services</a>
+        <a href="#about">About Us</a>
+        <a href="#blog">Blog</a>
+        <a href="#subscribe">Subscribe</a>
+        <a href="#contact">Contact Us</a>
+      </div>
+    </div>
+  </nav>
+  <header class="hero flex item-center">
+    <div class="container">
+      <div class="welcome flex item-center">
+        <span>Welcome to</span>
+        <h1>Food Store</h1>
+      </div>
+      <h1>The World Best <span>Shopping</span></h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut,
+        repudiandae. Quae aperiam totam neque obcaecati recusandae voluptates,
+        dignissimos
+      </p>
+      <div>
+        <button class="btn btn-primary">Xem Thêm</button>
+        <button class="btn btn-secondary">Mua Ngay</button>
+      </div>
+      <div class="hero-image">
+        <img src="./images/straw.png" alt="" />
+      </div>
+    </div>
+  </header>
+
+  <section class="top-products" id="products">
+    <div class="container">
+      <h1 class="section-heading">Sản Phẩm Hàng Đầu</h1>
+      <div class="slider">
+        <button class="slider-btn prev-btn">
+          <img src="./icons/pre.svg" alt="" />
+        </button>
+        <button class="slider-btn next-btn">
+          <img src="./icons/next.svg" alt="" />
+        </button>
+
+        <div class="food-slider">
+          <div class="food-card magic-shadow-sm">
+            <div class="product-image flex justify-center item-center">
+              <img src="./images/sp1.jpg" alt="" />
+            </div>
+            <hr />
+            <div>
+              <h2 class="text-center">Vịt Quay</h2>
+            </div>
+            <div class="star flex justify-center item-center">
+              <img src="./icons/start-filled.svg" alt="" />
+              <img src="./icons/start-filled.svg" alt="" />
+              <img src="./icons/start-filled.svg" alt="" />
+              <img src="./icons/star-grey.svg" alt="" />
+              <img src="./icons/star-grey.svg" alt="" />
+            </div>
+            <div class="price text-center">$ 4.99</div>
+            <div class="flex justify-center">
+              <button class="add-to-cart" data-name="Vịt Quay" data-price="4.99">
+                <img src="./icons/cart-2.svg" alt="" />
+                <span>Add to Cart</span>
+              </button>
+            </div>
+          </div>
+          <div class="food-card magic-shadow-sm">
+            <div class="product-image flex justify-center item-center">
+              <img src="./images/sp2.png" alt="" />
+            </div>
+            <hr />
+            <div>
+              <h2 class="text-center">Thịt Bò</h2>
+            </div>
+            <div class="star flex justify-center item-center">
+              <img src="./icons/start-filled.svg" alt="" />
+              <img src="./icons/start-filled.svg" alt="" />
+              <img src="./icons/start-filled.svg" alt="" />
+              <img src="./icons/start-filled.svg" alt="" />
+              <img src="./icons/star-grey.svg" alt="" />
+            </div>
+            <div class="price text-center">$ 7.99</div>
+            <div class="flex justify-center">
+              <button class="add-to-cart" data-name="Thịt Bò" data-price="7.99">
+                <img src="./icons/cart-2.svg" alt="" />
+                <span>Add to Cart</span>
+              </button>
+            </div>
+          </div>
+          <div class="food-card magic-shadow-sm">
+            <div class="product-image flex justify-center item-center">
+              <img src="./images/sp3.webp" alt="" />
+            </div>
+            <hr />
+            <div>
+              <h2 class="text-center">SuSi Cá Hồi</h2>
+            </div>
+            <div class="star flex justify-center item-center">
+              <img src="./icons/start-filled.svg" alt="" />
+              <img src="./icons/start-filled.svg" alt="" />
+              <img src="./icons/start-filled.svg" alt="" />
+              <img src="./icons/star-grey.svg" alt="" />
+              <img src="./icons/star-grey.svg" alt="" />
+            </div>
+            <div class="price text-center">$ 8.99</div>
+            <div class="flex justify-center">
+              <button class="add-to-cart" data-name="SuSi Cá Hồi" data-price="8.99">
+                <img src="./icons/cart-2.svg" alt="" />
+                <span>Add to Cart</span>
+              </button>
+            </div>
+          </div>
+          <div class="food-card magic-shadow-sm">
+            <div class="product-image flex justify-center item-center">
+              <img src="./images/sp4.jpg" alt="" />
+            </div>
+            <hr />
+            <div>
+              <h2 class="text-center">Sườn Xào Chua Ngọt</h2>
+            </div>
+            <div class="star flex justify-center item-center">
+              <img src="./icons/start-filled.svg" alt="" />
+              <img src="./icons/start-filled.svg" alt="" />
+              <img src="./icons/start-filled.svg" alt="" />
+              <img src="./icons/star-grey.svg" alt="" />
+              <img src="./icons/star-grey.svg" alt="" />
+            </div>
+            <div class="price text-center">$ 5.99</div>
+            <div class="flex justify-center">
+              <button class="add-to-cart" data-name="Sườn Xào Chua Ngọt" data-price="5.99">
+                <img src="./icons/cart-2.svg" alt="" />
+                <span>Add to Cart</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center btn-wrapper">
+        <button class="btn btn-secondary">Xem Thêm</button>
+      </div>
+    </div>
+  </section>
+  <section class="big-deal" id="bigsale">
+    <div class="container">
+      <h1 class="section-heading text-pure">Big Sale</h1>
+      <div class="timer">
+        <div>
+          <span>00</span>
+          <span>Days</span>
+        </div>
+        <div>
+          <span>23</span>
+          <span>Hours</span>
+        </div>
+        <div>
+          <span>59</span>
+          <span>Minutes</span>
+        </div>
+        <div>
+          <span>58</span>
+          <span>Seconds</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="our-services" id="services">
+    <div class="container">
+      <h1 class="section-heading">Services</h1>
+      <div class="card-wrapper flex">
+        <div class="service-card">
+          <img class="icon" src="./icons/transport.svg" alt="">
+          <h2>Giao Hàng Miễn Phí</h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque dolore maiores incidunt aliquid</p>
+          <button class="btn btn-secondary">Xem Thêm</button>
+        </div>
+        <div class="service-card">
+          <img class="icon" src="./icons/bag.svg" alt="">
+          <h2 class="text-primary">Dịch Vụ Hoàn Trả</h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque dolore maiores incidunt aliquid</p>
+          <button class="btn btn-primary">Xem Thêm</button>
+        </div>
+        <div class="service-card">
+          <img class="icon" src="./icons/usd.svg" alt="">
+          <h2>Phù Hợp Túi Tiền</h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque dolore maiores incidunt aliquid</p>
+          <button class="btn btn-secondary">Xem Thêm</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="about-meal" id="about">
+    <div class="container">
+      <h1 class="section-heading">About Us</h1>
+      <div class="about-meal-wrap flex">
+        <div class="flex-1">
+          <img src="./images/about.png" alt="">
+        </div>
+        <div class="flex-1">
+          <h2>Food Store</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda excepturi nihil, corporis quibusdam
+            dignissimos deleniti. Possimus tempora aliquam at eius, numquam, commodi autem obcaecati quas, quasi
+            exercitationem eos impedit mollitia!</p>
+          <button class="btn btn-secondary">Xem Thêm</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="latest-news" id="blog">
+    <div class="container">
+      <h1 class="section-heading">Blog</h1>
+      <div class="article-wrapper">
+        <article class="card magic-shadow-sm">
+          <div>
+            <img src="./images/donut.jpg" alt="">
+          </div>
+          <div class="card-content">
+            <div class="post-meta flex item-center justify-between">
+              <span>12 Jul 2024</span>
+              <div>
+                <span>By <strong>Food Store</strong></span>
+                <span class="comment-count">12 Comments</span>
+              </div>
+            </div>
+            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum delectus tempora perferendis modi,
+              mollitia laboriosam temporibus</p>
+          </div>
+        </article>
+        <article class="card magic-shadow-sm">
+          <div>
+            <img src="./images/coffee.jpg" alt="">
+          </div>
+          <div class="card-content">
+            <div class="post-meta flex item-center justify-between">
+              <span>12 Jul 2024</span>
+              <div>
+                <span>By <strong>Food Store</strong></span>
+                <span class="comment-count">12 Comments</span>
+              </div>
+            </div>
+            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum delectus tempora perferendis modi,
+              mollitia laboriosam temporibus</p>
+          </div>
+        </article>
+      </div>
+      <div class="text-center btn-wrapper">
+        <button class="btn btn-secondary ">Xem Tất Cả</button>
+      </div>
+    </div>
+  </section>
+  <section class="subscribe" id="subscribe">
+    <div class="container flex item-center">
+      <div>
+        <img src="./images/rasberry.png" alt="">
+      </div>
+      <div>
+        <h1>Theo Dõi Chúng Tôi</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt sunt provident reiciendis sit est ea,
+          soluta nemo praesentium tempora expedita quod eum earum</p>
+        <div class="input-wrap">
+          <input id="mail" type="email" placeholder="email@example.com">
+          <button type="submit" id="submit">Subscribe</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="contact-us flex" id="contact">
+    <div class="contact-info-wraper">
+      <h1 class="section-heading">Contact Us</h1>
+      <div class="infoo-contact">
+        <div>
+          <img src="./icons/phone-2.svg" alt=""><span>Phone: (+84) 5655 2 8686</span>
+        </div>
+        <div>
+          <img src="./icons/bag-2.svg" alt=""><span>Email: contactforwork.dvmmo@gmail.com</span>
+        </div>
+        <div>
+          <img src="./icons/clock-2.svg" alt=""><span>Giờ Làm Việc: Thứ 2 - Thứ 7 (8.00am - 12.00am)</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3726.1206073986496!2d105.75520821154487!3d20.947671180600924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313452eaa9c461c3%3A0x2a3e1c421f299adc!2zVHLGsOG7nW5nIMSQ4bqhaSBI4buNYyDEkOG6oWkgTmFt!5e0!3m2!1svi!2s!4v1719492116890!5m2!1svi!2s"
+        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+  </section>
+  <footer>
+    <div class="container">
+      <div class="box">
+        <h3>About us</h3>
+        <p>It was popularised in the 1960 with the release of Latest sheets containing Lorem Ipsum
+          passage.</p>
+        <button class="btn btn-secondary">Xem Thêm</button>
+      </div>
+      <div class="box">
+        <h3>Quik Links</h3>
+        <ul>
+          <li>
+            <a href="#home">Home</a>
+          </li>
+          <li>
+            <a href="#products">Products</a>
+          </li>
+          <li>
+            <a href="#bigsale">Big Sale</a>
+          </li>
+          <li>
+            <a href="#services">Services</a>
+          </li>
+          <li>
+            <a href="#about">About Us</a>
+          </li>
+          <li>
+            <a href="#blog">Blog</a>
+          </li>
+          <li>
+            <a href="#subscribe">Subscribe</a>
+          </li>
+          <li>
+            <a href="#contact">Contact us</a>
+          </li>
+
+        </ul>
+      </div>
+      <div class="box">
+        <h3>Follow Us</h3>
+        <div>
+          <ul>
+            <li>
+              <a href="#">
+                <img src="./icons/facebook.svg" alt="">
+                <span>Facebook</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="./icons/twitter.svg" alt="">
+                <span>Twitter</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="./icons/google.svg" alt="">
+                <span>Google +</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="./icons/instagram.svg" alt="">
+                <span>Instagram</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="box instagram-api">
+        <h3>Instagram</h3>
+        <div class="post-wrap">
+          <div>
+            <img src="./images/food-table.jpg" alt="">
+          </div>
+          <div>
+            <img src="./images/food-table.jpg" alt="">
+          </div>
+          <div>
+            <img src="./images/food-table.jpg" alt="">
+          </div>
+          <div>
+            <img src="./images/food-table.jpg" alt="">
+          </div>
+          <div>
+            <img src="./images/food-table.jpg" alt="">
+          </div>
+          <div>
+            <img src="./images/food-table.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <footer class="copyright">
+    <p>
+      Copyright © 2024. All rights reserved by <a href="#">Vu Duy Manh</a>.
+    </p>
+  </footer>
+  <button class="back-to-top" id="BackToTopBtn" onclick="topFunction()" title="Go To Top">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+      <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0m-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707z"/>
+    </svg>
+  </button>
+  
+  <!-- Cart Modal -->
+  <div id="cartModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Giỏ Hàng</h2>
+      <ul id="cartItemsList"></ul>
+      <p>Tổng: $<span id="cartTotal">0.00</span></p>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="./js/app.js"></script>
+  <script src="./js/sendmail.js"></script>
+</body>
+
+</html>
